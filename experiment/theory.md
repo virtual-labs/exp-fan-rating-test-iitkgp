@@ -36,8 +36,11 @@ $$ V_0 = \sqrt(2P_v - \frac {0}{\rho_0}) -------- (2) $$
 
 where,
 v<sub>0</sub> = velocity in ms−1
+
 P<sub>v0</sub> = velocity pressure in Pa and
+
 ρ<sub>0</sub> = air density in the duct in kg m−3
+
 ρ<sub>0</sub> is obtained from the relation
 
 $$ \rho_0 = \rho (\frac{T}{T_0})(\frac{B+P_s}{B}) ------- (3) $$
