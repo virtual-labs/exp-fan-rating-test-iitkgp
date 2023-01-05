@@ -48,7 +48,7 @@ T<sub>0</sub>,T,B and P<sub>s</sub> are measured, the barometer reading, of cour
 
 The fan total pressure indicates the total pressure at the outlet of the fan and can be calculated by adding the pressure loss in the intervening duct as well as that in the straightener to the sum of the static and the velocity pressures measured in the duct. Pressure loss in the duct is given by the relation
 
-$$ P_1 =0.02 (\frac{L}{D}P_{v0_}) -------- (4) $$
+$$ P_1 =0.02 (\frac{L}{D})P_{v0} -------- (4) $$
 
 where,
 P<sub>1</sub> = Pressure loss due to friction in the duct,
@@ -85,9 +85,10 @@ Where Q = quantity at the inlet and Q0 = quantity in the duct.
 
 <!-- blank line -->
 <figure class="video_container">
-  <iframe src="http://www.youtube.com/embed/8feKqspo5ZE" frameborder="0" allowfullscreen="true"> </iframe>
+  <iframe src="https://www.youtube.com/embed/8feKqspo5ZE" frameborder="0" allowfullscreen="true"> </iframe>
 </figure>
 <!-- blank line --> 
+
 
 
 
