@@ -1,4 +1,5 @@
-/* Lab:exp_5_Theory of Fan Rating Test
+/* Lab: Mine Automation and Virtual Reality
+   Exp: Theory of Fan Rating Test
 	 File name: addinptotable5.js
    Author:Prakriti Dhang
 */
