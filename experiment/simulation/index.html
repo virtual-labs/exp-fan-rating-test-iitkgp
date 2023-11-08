@@ -49,16 +49,16 @@
 </style>
 
 </head>
-<body class="d-flex flex-column min-vh-100" style="background-color: rgb(3, 44, 83);" onload="pgload();"  >
+<body class="d-flex flex-column min-vh-100"  onload="pgload();"  >
   <header id="header">
     <div class="container-fluid">
-        <img src="images/logo.jpg" class="col-xs-12 col-sm-12 col-md-12 col-lg-12 rounded img-fluid img-resposive" alt="logo" >
+       
     </div>
   </header>
     
 <div class="container-fluid">
     <div class=" d-flex justify-content-center p-2  text-white">
-        <h4 style="color:#1bf514">Theory of Fan Rating Test</h4>
+        
       </div>
    
 </div>
@@ -68,7 +68,7 @@
   <div class="row">
     <div  class="col-xs-12 col-sm-12 col-md-6 col-lg-6 poscol">
     <div class="card border-primary rounded" style="height: 550px;">
-        <div class="card-body" style="background-color:#E6FFCC;">
+        <div class="card-body" >
           <h4 class="card-title">Machine set up</h4>
           <div class="img-container">
          <img  id ="ductimg" src="images/fantest-duct.png" class="img-fluid " alt="duct" />
@@ -104,7 +104,7 @@
         <div class="col-xs-12 col-sm-12 col-md-12 col-lg-12">
 
           <div id="flwdevice" class="card border-primary rounded" style="display:none;">
-            <div class="card-body" style="background-color:rgb(255, 228, 251); "  >
+            <div class="card-body"  >
               <div class="card-title" style="text-align: center; font-weight: bold; font-size: large;">Do you want to take another Throttle Device for  measurement?</div>
               <button type="button" id="yfldb" class="btn btn-primary  col-3 col-sm-4 col-xs-3 col-lg-3" onclick="yesflwdevice();">Yes</button>
                
@@ -113,7 +113,7 @@
 
           
            <div id="graphd" class="card border-primary rounded" style="display:none;">
-             <div class="card-body" style="background-color:rgb(224, 235, 255); "  >
+             <div class="card-body"  >
                <div class="card-title" style="text-align: center; font-weight: bold; font-size: large;">Graph Plot</div>
                <button type="button" class="btn btn-primary  col-3 col-sm-4 col-xs-3 col-lg-3" onclick="showplot();">Plot Graph</button>
                <button type="button" class="btn btn-warning  col-4 col-sm-4 col-xs-3 col-lg-3" onclick="showbestfitg();">Best Fit Graph</button>
@@ -128,7 +128,7 @@
     </div>
     <div class="col-xs-12 col-sm-12 col-md-6 col-lg-6 ">
       <div class="card border-primary rounded">
-        <div class="card-body" style="background-color:rgb(251, 255, 214);">
+        <div class="card-body" >
           <h4 class="card-title">Control Elements</h4>
           <p class="card-text" style="font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif">To start the experiment click the "Start" button</p>
             <button type="button" id="yesbtn" class="btn btn-primary col-md-3 col-sm-3 col-xs-3 col-lg-3"  data-toggle="modal" data-target="#rotatephone" >Start</button>
@@ -136,7 +136,7 @@
             <button type="button" id="btninst" class="btn btn-success float-right col-md-3 col-sm-3 col-xs-3 col-lg-3" data-toggle="collapse" data-target="#instdisp1" disabled>Instruction</button>
 </div></div>
             <div id="instdisp1" class="collapse card border-primary rounded " > <!--style="display: none;"-->
-              <div class="card-body" style="background-color:rgb(220, 253, 209);">
+              <div class="card-body" >
             <h4 class="card-title">Instruction</h4>
             
          <ol type="1">
@@ -157,7 +157,7 @@
            
         
           <div  id="measure" class=" card border-primary rounded" style="display: none;">
-            <div class="card-body" style="background-color:rgb(224, 235, 255);">
+            <div class="card-body" >
               <h4 class="card-title">Insert Diameter and Lenght of the Duct </h4>
               
               <div class="form-group row">
@@ -183,7 +183,7 @@
               </div></div>
 
               <div id="obsanem" class="collapse card border-primary rounded border border-5" style="display:none;">
-                <div class="card-body" style="background-color:rgb(224, 235, 255);">
+                <div class="card-body" >
             <p class="card-text" style="font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif">Click on the Flow Control Device and switch on the fan and then click start traversing button</p>
             <button type="button" id="antvb" onclick="antrv();" class="btn btn-success col-xs-4 col-md-4 col-sm-4 col-lg-4" disabled>Start Traversing</button>
             
@@ -191,7 +191,7 @@
           </div>
 
           <div id="velread" class=" card border-primary rounded" style="display: none;">
-            <div class="card-body" style="background-color:rgb(232, 255, 219);">
+            <div class="card-body" >
               <button type="button" id="velrb" onclick="velr();" class="btn btn-warning col-xs-4 col-md-4 col-sm-4 col-lg-4" disabled>1st Velocity Reading</button>
               <div class="form-group row">
                
@@ -215,7 +215,7 @@
 
               <div id="measureddata" class=" card border-primary rounded" style="display: none;">
                 
-                <div class="card-body" style="background-color:rgb(224, 235, 255);">
+                <div class="card-body" >
                   <div class="form-group row">
                   <label for="avgv" class=" col-xs-5 col-md-5 col-sm-5 col-lg-5" style="font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;">Average Velocity </label>
                   <input type="number" class="form-control col-xs-3 col-md-3 col-sm-3 col-lg-3" id="avgvi" value="" readonly >
@@ -259,7 +259,7 @@
                 </div>
                 </div>
                 <div id="effdatad" class=" card border-primary rounded" style="display: none;">
-                  <div class="card-body " id="efficiency" style="background-color:rgb(244, 224, 255); display: none;">
+                  <div class="card-body " id="efficiency" style=" display: none;">
                     <div class="form-group row">
                     <label for="eff" class=" col-xs-5 col-md-5 col-sm-5 col-lg-5" style="font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;">Efficiency </label>
                     <input type="number" class="form-control col-xs-3 col-md-3 col-sm-3 col-lg-3" id="effc" value="" readonly >
@@ -273,7 +273,7 @@
               
               
               <div id="obvtable5" class="card border-primary rounded" style="display: none;">
-                <div class="card-body" style="background-color:rgb(241, 248, 198);">
+                <div class="card-body" >
               <h4 class="card-title">Observation Table</h4>
               
               <div class="table-responsive-sm table-responsive-md table-responsive-lg table-responsive-xl" style="overflow-x:auto;">
@@ -393,7 +393,7 @@
 
 <footer class="mt-auto" style="background-color: rgb(168, 222, 253);">
   <p class="justify-content-center" style="color:black;">© 2022 Copyright, IIT Kharagpur,
-    <a href="/" style="color: rgb(50, 3, 180); text-decoration: underline;"> Virtual Lab </a></p>
+    <a  style="color: rgb(50, 3, 180); text-decoration: underline;"> Virtual Lab </a></p>
 </footer>
 
 <!-- footer-->
