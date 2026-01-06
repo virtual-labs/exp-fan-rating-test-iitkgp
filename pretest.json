@@ -1,0 +1,30 @@
+{
+  "version": 2.0,
+  "questions": [
+    {
+      "question": "Unit of Velocty is",
+      "answers": {
+        "a": "m/s",
+        "b": "ms",
+        "c": "m/s^3",
+        "d": "None"
+      },
+     
+      "correctAnswer": "a",
+      "difficulty": "beginner"
+    },
+    {
+      "question": "Unit of air density in the duct is",
+      "answers": {
+        "a": "kg/m",
+        "b": "kg",
+        "c": "kg/m^3",
+        "d": "None"
+      },
+      
+      
+      "correctAnswer": "c",
+      "difficulty": "beginner"
+    }
+  ]
+}
