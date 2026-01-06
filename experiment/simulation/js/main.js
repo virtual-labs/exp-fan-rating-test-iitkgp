@@ -269,7 +269,7 @@ function moveplate1(){  /* move 1st  throtling plate to the required position*/
       clearInterval(imgobj1); /* stops to 100 postion*/
       document.getElementById('yesbtn').disabled=true;
       document.getElementById("on").style.visibility="visible";
-      document.getElementById('inpp').value='0.34';
+      //document.getElementById('inpp').value=inppower; //0.34
      
 
     } else {
